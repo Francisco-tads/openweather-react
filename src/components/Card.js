@@ -51,15 +51,15 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
                                 <div className="col-md-4">
                                     <h3 className="card-title">{weather.name}</h3>
                                     <p className="card-date">{date}</p>
-                                    <h1 className="card-temp">{(weather.main.temp - 273.15).toFixed(1)}ºC</h1>
+                                    <h1 className="card-temp">{(weather.main.temp - 273.15).toFixed()}ºC</h1>
                                     <p className="card-desc"><img src={iconUrl} alt="icon" />{weather.weather[0].description}</p>
                                     <img src="https://images.pexels.com/photos/5048457/pexels-photo-5048457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid rounded-start" alt="..." />"
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body text-start mt-2">
-                                        <h5 className="card-text">Temperatura máxima: {(weather.main.temp_max - 273.15).toFixed(1)}ºC</h5>
-                                        <h5 className="card-text">Temperatura mínima: {(weather.main.temp_min - 273.15).toFixed(1)}ºC</h5>
-                                        <h5 className="card-text">Sensação térmica: {(weather.main.feels_like - 273.15).toFixed(1)}ºC</h5>
+                                        <h5 className="card-text">Temperatura máxima: {(weather.main.temp_max - 273.15).toFixed()}ºC</h5>
+                                        <h5 className="card-text">Temperatura mínima: {(weather.main.temp_min - 273.15).toFixed()}ºC</h5>
+                                        <h5 className="card-text">Sensação térmica: {(weather.main.feels_like - 273.15).toFixed()}ºC</h5>
                                         <h5 className="card-text">Humedade: {weather.main.humidity}%</h5>
                                         <h5 className="card-text">Velocidade do vento: {weather.wind.speed}m/s</h5>
                                     </div>
@@ -69,17 +69,17 @@ const Card = ({ loadingData, showData, weather, forecast }) => {
                                         <div className="col-">
                                             <p>{forecastDate3}h</p>
                                             <p className="description"><img src={iconUrl3} alt="icon"/>{forecast.list[1].weather[0].description}</p>
-                                            <p className="temp">{(forecast.list[1].main.temp - 273.15).toFixed(1)}ºC</p>
+                                            <p className="temp">{(forecast.list[1].main.temp - 273.15).toFixed()}ºC</p>
                                         </div>
                                         <div className="col">
                                             <p>{forecastDate6}h</p>
                                             <p className="description"><img src={iconUrl6} alt="icon"/>{forecast.list[2].weather[0].description}</p>
-                                            <p className="temp">{(forecast.list[2].main.temp - 273.15).toFixed(1)}ºC</p>
+                                            <p className="temp">{(forecast.list[2].main.temp - 273.15).toFixed()}ºC</p>
                                         </div>
                                         <div className="col">
                                             <p>{forecastDate9}h</p>
                                             <p className="description"><img src={iconUrl9} alt="icon"/>{forecast.list[3].weather[0].description}</p>
-                                            <p className="temp">{(forecast.list[3].main.temp - 273.15).toFixed(1)}ºC</p>
+                                            <p className="temp">{(forecast.list[3].main.temp - 273.15).toFixed()}ºC</p>
                                         </div>
 
                                      
