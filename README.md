@@ -1,3 +1,45 @@
+# openweather
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Francisco-tads/openweather-react/blob/master/LICENCE)
+
+# Sobre o projeto
+
+https://openweather-app.pages.dev/
+
+O projeto openweather é uma aplicação Web e mobile, desenvolvido com React Native utilizando uma API real, ele está hospedado no Cloudflare, e toda sua estrutura de código, pode ser visualizada também no Github.
+ [openweather](https://openweather-app.pages.dev/ "Site do openweather").
+
+
+
+## Layout mobile
+![Mobile 1](https://github.com/Francisco-tads/openweather-react/blob/master/public/clima-tempo-mobile.jpg) 
+
+## Layout web
+![Web 1](https://github.com/Francisco-tads/openweather-react/blob/master/public/clima-tempo.png)
+
+
+## 
+
+# Tecnologias utilizadas
+
+## Front end
+- HTML 
+- CSS
+- JavaScript
+- React Native API REAL 
+
+## Implantação em produção
+- Back end: Github
+- Front end web: Cloudflare
+- Banco de dados: Postgresql
+
+# Autor
+
+Francisco Vieira
+
+Meu Linkedin:
+
+https://www.linkedin.com/in/francisco-vieiratads/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
